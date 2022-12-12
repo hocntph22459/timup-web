@@ -8,8 +8,8 @@
       </h2>
     </div>
     <div class="row">
-    <?php foreach ($listpro as $list) : ?>
-      <div class="col-md-6 ">
+    <?php foreach ($listproall as $list) : ?>
+      <div class="col-sm-6 col-xl-3">
         <div class="box">
           <a href="">
             <div class="img-box">
@@ -34,7 +34,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-6 col-xl-3">
+      <!-- <div class="col-sm-6 col-xl-3">
         <div class="box">
           <a href="">
             <div class="img-box">
@@ -182,8 +182,8 @@
               </span>
             </div>
           </a>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
     </div>
     <?php endforeach ?>
     <div class="btn-box">

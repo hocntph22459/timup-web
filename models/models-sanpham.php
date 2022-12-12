@@ -1,7 +1,7 @@
 <?php
 function loadall_pro_home()
 {
-    $sql = "SELECT*FROM products WHERE 1 ORDER BY id DESC LIMIT 0,9";
+    $sql = "SELECT*FROM products";
     $listproall = pdo_query($sql);
     return $listproall;
 }

@@ -14,7 +14,8 @@ switch ($url) {
         include "./views/home.php";
         break;
     case 'watches':
-        $listpro = listsploc();
+        $listproall = loadall_pro_home();
+        // $listpro = listsploc();
         include "./views/watches.php";
         break;
     case 'about':
