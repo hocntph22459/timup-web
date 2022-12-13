@@ -9,14 +9,14 @@
             <div class="col-md-6">
               <div class="detail-box">
                 <h1>
-                  Smart Watches
+                  Đồng hồ thông minh
                 </h1>
                 <p>
                   Aenean scelerisque felis ut orci condimentum laoreet. Integer nisi nisl, convallis et augue sit amet, lobortis semper quam.
                 </p>
                 <div class="btn-box">
                   <a href="" class="btn1">
-                    Contact Us
+                    Liên hệ chúng tôi
                   </a>
                 </div>
               </div>
@@ -35,14 +35,14 @@
             <div class="col-md-6">
               <div class="detail-box">
                 <h1>
-                  Smart Watches
+                  Đồng hồ thông minh
                 </h1>
                 <p>
                   Aenean scelerisque felis ut orci condimentum laoreet. Integer nisi nisl, convallis et augue sit amet, lobortis semper quam.
                 </p>
                 <div class="btn-box">
                   <a href="" class="btn1">
-                    Contact Us
+                    Liên hệ chúng tôi
                   </a>
                 </div>
               </div>
@@ -61,14 +61,14 @@
             <div class="col-md-6">
               <div class="detail-box">
                 <h1>
-                  Smart Watches
+                  Đồng hồ thông minh
                 </h1>
                 <p>
                   Aenean scelerisque felis ut orci condimentum laoreet. Integer nisi nisl, convallis et augue sit amet, lobortis semper quam.
                 </p>
                 <div class="btn-box">
                   <a href="" class="btn1">
-                    Contact Us
+                    Liên hệ chúng tôi
                   </a>
                 </div>
               </div>
@@ -97,8 +97,8 @@
 
 <section class="shop_section layout_padding">
   <div class="container">
-    <form class="d-flex" role="search" style="margin-right: 50px;" action="?url=watches" method="post">
-      <input class="form-control me-2" type="text" placeholder="Tìm kiếm" aria-label="Search" name="iddm">
+    <form class="d-flex" role="search" style="margin-right: 50px;" action="?url=categories-sanpham" method="post">
+      <!-- <input class="form-control me-2" type="text" placeholder="Tìm kiếm" aria-label="Search" name="iddm"> -->
       <select class="form-select" aria-label="Default select example" style="width: 120px; margin-right:10px ;" name="iddm">
         <option value="0" selected>Tất cả</option>
         <?php foreach ($listcate as $dm) : ?>
@@ -114,37 +114,11 @@
     </div>
     <?php foreach ($listproall as $list) : ?>
       <div class="row">
-        <div class="col-md-6 ">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="<?= $list['image'] ?>" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  <?= $list['name'] ?>
-                </h6>
-                <h6>
-                  giá tiền:
-                  <span>
-                    <?= $list['price'] ?>
-                    vnđ
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  <?= $list['tinhtrang'] ?>
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
         <div class="col-sm-6 col-xl-3">
           <div class="box">
             <a href="">
               <div class="img-box">
-                <img src="<?= $list['image'] ?>" alt="">
+                <a href="?url=deltail-products&id=<?=$list['id'] ?>"><img src="<?= $list['image'] ?>" alt=""></a>
               </div>
               <div class="detail-box">
                 <h6>
@@ -192,17 +166,18 @@
         <div class="detail-box">
           <div class="heading_container">
             <h2>
-              About Us
+              Về chúng tôi
             </h2>
           </div>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-            in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-            are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-            the middle of text. All
+            Có rất nhiều biến thể của các đoạn văn trong Lorem Ipsum,
+            nhưng phần lớn đã bị thay đổi dưới một số hình thức, bằng cách thêm vào
+            sự hài hước hoặc những từ ngữ ngẫu nhiên trông thậm chí không đáng tin
+            chút nào. Nếu bạn định sử dụng một đoạn văn của Lorem Ipsum, bạn cần chắc
+            chắn rằng không có điều gì đáng xấu hổ ẩn giấu ở giữa văn bản. Tất cả các
           </p>
           <a href="">
-            Read More
+            Đọc thêm
           </a>
         </div>
       </div>
@@ -218,10 +193,10 @@
   <div class="container">
     <div class="heading_container">
       <h2>
-        Features Of Our Watches
+        Các tính năng của đồng hồ của chúng tôi
       </h2>
       <p>
-        Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Học sinh có thể được giáo dục, nhưng nó sẽ xảy ra vào thời điểm mà sẽ có một số công việc và nỗi đau lớn.
       </p>
     </div>
     <div class="row">
@@ -232,14 +207,14 @@
           </div>
           <div class="detail-box">
             <h5>
-              Fitness Tracking
+              Theo dõi sức khỏe
             </h5>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Khách hàng là rất quan trọng, khách hàng sẽ được theo dõi bởi khách hàng,
             </p>
             <a href="">
               <span>
-                Read More
+                Đọc thêm
               </span>
               <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
@@ -253,14 +228,14 @@
           </div>
           <div class="detail-box">
             <h5>
-              Alerts & Notifications
+              Cảnh báo & Thông báo
             </h5>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Khách hàng là rất quan trọng, khách hàng sẽ được theo dõi bởi khách hàng,
             </p>
             <a href="">
               <span>
-                Read More
+                Đọc thêm
               </span>
               <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
@@ -274,14 +249,14 @@
           </div>
           <div class="detail-box">
             <h5>
-              Messages
+              tin nhắn
             </h5>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Khách hàng là rất quan trọng, khách hàng sẽ được theo dõi bởi khách hàng,
             </p>
             <a href="">
               <span>
-                Read More
+                Đọc thêm
               </span>
               <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
@@ -298,11 +273,11 @@
               Bluetooth
             </h5>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Khách hàng là rất quan trọng, khách hàng sẽ được theo dõi bởi khách hàng,
             </p>
             <a href="">
               <span>
-                Read More
+                Đọc thêm
               </span>
               <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
@@ -312,7 +287,7 @@
     </div>
     <div class="btn-box">
       <a href="">
-        View More
+        Xem thêm
       </a>
     </div>
   </div>
@@ -329,7 +304,7 @@
         <div class="form_container">
           <div class="heading_container">
             <h2>
-              Contact Us
+              Liên hệ chúng tôi
             </h2>
           </div>
           <form action="">
@@ -347,7 +322,7 @@
             </div>
             <div class="d-flex ">
               <button>
-                SEND
+                Gủi
               </button>
             </div>
           </form>
@@ -369,7 +344,7 @@
   <div class="container">
     <div class="heading_container heading_center">
       <h2>
-        Testimonial
+        lời chứng thực
       </h2>
     </div>
     <div class="carousel-wrap ">
@@ -392,13 +367,10 @@
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore
-                et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum
-                dolore eu fugia
+                mensbry là website chuyên kinh doanh các mặt
+                hàng thời trang , phù hợp cho mọi lứa tuổi nam nữ .
+                chúng tôi cam kết về giá thành và chất lượng sản phẩm
+                mà chúng tôi cung cấp cảm ơn sự tin tưởng của khách hàng đã dành cho chúng tôi!
               </p>
             </div>
           </div>

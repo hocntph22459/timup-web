@@ -5,15 +5,21 @@ function loadall_pro_home()
     $listproall = pdo_query($sql);
     return $listproall;
 }
+function loadone_pro($id)
+{
+    $sql = "SELECT*FROM products where id = $id";
+    $listproall = pdo_query($sql);
+    return $listproall;
+}
 
-function locsp()
+function loc_sp()
 {
     $sql = "SELECT*FROM categories";
     $listcate = pdo_query($sql);
     return $listcate;
 }
 
-function listsploc()
+function list_sploc()
 {
     if (isset($_POST['btn'])) {
         $iddm = $_POST['iddm'];
