@@ -307,21 +307,21 @@
               Liên hệ chúng tôi
             </h2>
           </div>
-          <form action="">
+          <form action="" method="post">
             <div>
-              <input type="text" placeholder="Full Name " />
+              <input name="name" type="text" placeholder="Họ và tên " />
             </div>
             <div>
-              <input type="email" placeholder="Email" />
+              <input name="noidung" type="text" class="message-box" placeholder="Thông điệp" />
             </div>
             <div>
-              <input type="text" placeholder="Phone number" />
+              <input name="email" type="email" placeholder="E-mail" />
             </div>
             <div>
-              <input type="text" class="message-box" placeholder="Message" />
+              <input name="phone" type="text" placeholder="Số điện thoại" />
             </div>
             <div class="d-flex ">
-              <button>
+              <button name="btn" onclick="return confirm('bạn có chắc gửi phản hồi cho chúng tôi!')">
                 Gủi
               </button>
             </div>

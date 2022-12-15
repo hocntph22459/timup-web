@@ -13,7 +13,7 @@
         <div class="box">
           <a href="">
             <div class="img-box">
-              <img src="./views/src/images/w1.png" alt="">
+            <a href="?url=deltail-products&id=<?=$list['id'] ?>"><img src="<?= $list['image'] ?>" alt=""></a>
             </div>
             <div class="detail-box">
               <h6>

@@ -1,6 +1,7 @@
 <?php
 include "./models/connect.php";
 include "./models/models-sanpham.php";
+include "./models/models-lienhe.php";
 
 
 $url = isset($_GET['url']) ? $_GET['url'] : '';
@@ -9,6 +10,7 @@ switch ($url) {
     case '':
         // trang chủ
     case 'home':
+        insert_lienhe();
         $listproall = loadall_pro_home();
         $listcate = loc_sp();
         include "./views/home.php";
@@ -29,6 +31,7 @@ switch ($url) {
         include "./views/about.php";
         break;
     case 'contact-us':
+        insert_lienhe();
         include "./views/contact.php";
         break;
     case 'login':
