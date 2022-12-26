@@ -48,7 +48,7 @@
             <a href="">
               <i class="fa fa-envelope" aria-hidden="true"></i>
               <span>
-                nhom9@gmail.com
+                hocntph22459@fpt.edu.vn
               </span>
             </a>
           </div>
